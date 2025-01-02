@@ -1,5 +1,0 @@
-D:\projects\psp-retrofit\app\src\main\java\com\psp\retrofit\ui\theme\Type.kt
-D:\projects\psp-retrofit\app\src\main\java\com\psp\model\Alumno.kt
-D:\projects\psp-retrofit\app\src\main\java\com\psp\retrofit\MainActivity.kt
-D:\projects\psp-retrofit\app\src\main\java\com\psp\retrofit\ui\theme\Color.kt
-D:\projects\psp-retrofit\app\src\main\java\com\psp\retrofit\ui\theme\Theme.kt
