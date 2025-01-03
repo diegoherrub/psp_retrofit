@@ -1,4 +1,4 @@
-package com.psp.model
+package com.psp.retrofit.model
 
 import retrofit2.Response
 

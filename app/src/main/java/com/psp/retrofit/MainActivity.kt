@@ -11,15 +11,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.psp.data.StudentDataRepository
-import com.psp.data.remote.ApiClient
-import com.psp.data.remote.ApiService
+import com.psp.retrofit.data.StudentDataRepository
+import com.psp.retrofit.data.remote.ApiClient
+import com.psp.retrofit.data.remote.ApiService
 import com.psp.retrofit.ui.theme.RetrofitTheme
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import retrofit2.create
 
 class MainActivity : ComponentActivity() {
 

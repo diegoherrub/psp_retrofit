@@ -1,4 +1,4 @@
-package com.psp.data.remote
+package com.psp.retrofit.data.remote
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

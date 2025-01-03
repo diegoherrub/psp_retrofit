@@ -1,10 +1,10 @@
-package com.psp.data
+package com.psp.retrofit.data
 
-import com.psp.data.remote.ApiService
-import com.psp.model.Course
-import com.psp.model.Student
-import com.psp.model.StudentRepository
-import com.psp.model.Subject
+import com.psp.retrofit.data.remote.ApiService
+import com.psp.retrofit.model.Course
+import com.psp.retrofit.model.Student
+import com.psp.retrofit.model.StudentRepository
+import com.psp.retrofit.model.Subject
 import retrofit2.Response
 
 class StudentDataRepository(
