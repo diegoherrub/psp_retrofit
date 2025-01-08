@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Retrofit</string>
+
+    <!-- Bottom Navigation Menu -->
+    <string name="string_students">Alumnos</string>
+    <string name="string_classrooms">Aulas</string>
 </resources>

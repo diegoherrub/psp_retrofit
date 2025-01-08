@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.psp.retrofit"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.psp.retrofit"
-        minSdk = 24
-        targetSdk = 34
+        minSdk = 26
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -60,6 +60,14 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx.v287)
     implementation(libs.androidx.runtime.livedata)
     implementation(libs.androidx.runtime)
+    implementation(libs.material)
+
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.navigation.fragment)
+    implementation(libs.material)
+
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.appcompat)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

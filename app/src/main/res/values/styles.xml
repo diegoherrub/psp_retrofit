@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fragment_student_title_style">
+        <item name="android:textSize">@dimen/txt_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/pd_medium</item>
+    </style>
+
+    <style name="student_card_view">
+        <item name="cardCornerRadius">@dimen/cr_medium</item>
+        <item name="cardElevation">@dimen/m_small</item>
+        <item name="android:layout_marginTop">@dimen/m_small</item>
+        <item name="android:layout_marginBottom">@dimen/m_small</item>
+        <item name="android:layout_marginStart">@dimen/m_medium</item>
+        <item name="android:layout_marginEnd">@dimen/m_medium</item>
+        <item name="contentPadding">@dimen/pd_medium</item>
+    </style>
+
+    <style name="item_text_card">
+        <item name="android:textSize">@dimen/txt_medium</item>
+        <item name="android:layout_marginStart">@dimen/m_medium</item>
+    </style>
+
+    <style name="item_student_name" parent="item_text_card">
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
