@@ -12,6 +12,8 @@ class StudentViewHolder(
 
     fun bind(student: Student) {
         view.findViewById<TextView>(R.id.item_student_name).text = student.name
-        view.findViewById<TextView>(R.id.item_student_name).text = student.email
+        view.findViewById<TextView>(R.id.item_student_email).text = student.email
+        view.findViewById<TextView>(R.id.item_student_course).text = student.course.toString()
+        view.findViewById<TextView>(R.id.item_student_subjects).text = student.subjects.joinToString(", ")
     }
 }

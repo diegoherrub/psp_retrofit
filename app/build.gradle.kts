@@ -57,7 +57,6 @@ dependencies {
 
     implementation(libs.ui)
     implementation(libs.material3)
-    implementation(libs.androidx.lifecycle.runtime.ktx.v287)
     implementation(libs.androidx.runtime.livedata)
     implementation(libs.androidx.runtime)
     implementation(libs.material)
